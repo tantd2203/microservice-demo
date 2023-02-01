@@ -7,12 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="limits-service" />
+        <module name="spring-could-config-server" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="limits-service" options="-parameters" />
+      <module name="microservice-demo" options="" />
+      <module name="spring-could-config-server" options="-parameters" />
     </option>
   </component>
 </project>
